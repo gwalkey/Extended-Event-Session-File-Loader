@@ -35,4 +35,23 @@ There are two Editions of this project:
 I typically run the XEL File Reader to load Failed Logins into a SQL Table fronted by a Power BI Dashboard to see where my Bad logins are coming from
 I typically run the Stream Reader against an XE session that tracks Deadlocks, but you can watch any XE Session
 
+Sample:
+powershell.exe c:\psscripts\XEvents_File_Reader.ps1 -Server 'localhost' -XELFilePath 'c:\traces\XE_Filed_Logins*.xel'
+
+-Server is the destination SQL Server you will be pushing the XE events into
+-Database is the Database
+-Table is the table you will load the events into
+
+
+# Code Customization required
+As every Extended Event Session you create is different, with varying data elements captured, you will be creating a SQL Table to hold those same elements.
+
+Accordingly, we must 
+1) Create a SQL Server laoding table with a schema to accomodate our XE Session event attributes
+2) Create a Powershell Datatable whose schema matches our SQL Load table
+3) Add each parsed XE Event to the Posh datatable so that we can use the SQL Bulk Copy API to quickly load the events into SQL in batches of 1000 Events (configurable)
+
+
+
+
 Feel free to extend and embrace the code to trigger alerts, send emails, call an API etc
