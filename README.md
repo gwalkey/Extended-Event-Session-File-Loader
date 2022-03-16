@@ -52,6 +52,6 @@ Accordingly, we must
 
 # Setup
 Full Setup instructions are in the Wiki<br>
-https://github.com/gwalkey/Extended-Event-Session-File-Loader/wiki
+https://github.com/gwalkey/Extended-Event-Session-File-Loader/wiki/Setup-Instructions
 
 Feel free to extend and embrace the code to trigger alerts, send emails, call an API etc
