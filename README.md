@@ -51,7 +51,7 @@ Accordingly, we must
 3) Add each parsed XE Event to the Posh datatable so that we can use the SQL Bulk Copy API to quickly load the events into SQL in batches (configurable)
 
 # Setup
-Full Setup instructions are in the Wiki
+Full Setup instructions are in the Wiki<br>
 https://github.com/gwalkey/Extended-Event-Session-File-Loader/wiki
 
 Feel free to extend and embrace the code to trigger alerts, send emails, call an API etc
