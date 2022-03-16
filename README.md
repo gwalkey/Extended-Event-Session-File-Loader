@@ -32,7 +32,7 @@ There are two Editions of this project:
 2) A Stream Reader - found here
 
 # Usage
-I typically run the XEL File Reader to load Failed Logins into a SQL Table fronted by a Power BI Dashboard to see where my Bad logins are coming from
+I typically run the XEL File Reader to load Failed Logins into a SQL Table fronted by a Power BI Dashboard to see where my Bad logins are coming from<br>
 I typically run the Stream Reader against an XE session that tracks Deadlocks, but you can watch any XE Session
 
 Sample:
