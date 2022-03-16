@@ -3,6 +3,7 @@ This Powershell example takes an Extended Events .XEL file as input and loads th
 
 <h2>Background</h2>
 The SQL Server built-in XE File read function <b>sys.fn_xe_file_target_read_file<br> is INCREDIBLY SLOW.
+
 ![alt text](https://raw.githubusercontent.com/gwalkey/SSAS_DW_Logins/master/Import_Library_Comparison.jpg)
 
 <h2>Shout-Out and Props</h2> 
