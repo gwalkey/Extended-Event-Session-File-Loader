@@ -6,9 +6,9 @@ The SQL Server built-in XE File read function <b>sys.fn_xe_file_target_read_file
 
 I needed a faster method to load large XEL trace files into a SQL table.
 
-Turns out Microsoft already has one, they just done talk about it much
+Turns out Microsoft already has one, they just dont talk about it much
 
-Performance differenece between using the built-in function and the DLL Libraries
+Performance difference between using the built-in function and the DLL Libraries
 ![alt text](https://raw.githubusercontent.com/gwalkey/SSAS_DW_Logins/master/Import_Library_Comparison.jpg)
 
 <h2>Shout-Out and Props</h2> 
