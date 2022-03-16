@@ -1,18 +1,22 @@
 # Extended-Event-Session-File-Loader
 This Powershell example takes an Extended Events .XEL file as input and loads the Session trace data into a SQL Table for further processing
 
-<h1>Background</h1>
+<h2>Background</h2>
 The SQL Server built-in Function '''sys.fn_xe_file_target_read_file''' is INCREDIBLY SLOW.
 
-This project utilizes two SQL Server DLLs that are present on every installation of SQL Server:
+<h2>Requirements</h2>
+* Windows Powershell 5.1 or Powershell 7
+* .Net Framework 4.8 or .Net Core 3.X runtimes
 * Microsoft.SqlServer.XE.Core.dll
 * Microsoft.SqlServer.XEvent.Linq.dll
 
-There are two versions of this project:
+<h2>Editions</h2>
+There are two Editions of this project:
 1) A File Reader - this repo
 2) A Stream Reader - found here
 
-I Typically run the XEL File Reader to load Successful or Failed Logins into a SQL Table Fronted by a Power BI Dashboard to see where my Bad logins are coming from
+<h2>Usage</h2>
+I typically run the XEL File Reader to load Failed Logins into a SQL Table fronted by a Power BI Dashboard to see where my Bad logins are coming from
+I typically run the Stream Reader against an XE session that tracks Deadlocks, but you can watch any XE Session
 
-I Typically run the Stream reader with an XE session that watches for Deadlocks, but you can watch any XE Session
-Feel free to extend and embrace the code to trigger alerts, send email 
+Feel free to extend and embrace the code to trigger alerts, send emails, call an API etc
