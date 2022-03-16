@@ -37,7 +37,7 @@ I typically run the Stream Reader against an XE session that tracks Deadlocks, b
 
 Sample:
 <pre>
-powershell.exe c:\psscripts\XEvents_File_Reader.ps1 -Server 'localhost' -Database 'FailedLogins' - Table 'XE_Load' -XELFilePath 'c:\traces\XE_Faled_Logins*.xel'
+powershell.exe c:\psscripts\XEvents_File_Loader.ps1 -Server 'localhost' -Database 'FailedLogins' - Table 'XE_Load' -XELFilePath 'c:\traces\XE_Faled_Logins*.xel'
 </pre>
 
 -Server is the destination SQL Server you will be pushing the XE events into<br>
