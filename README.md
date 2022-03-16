@@ -8,7 +8,7 @@ I needed a faster method to load large XEL trace files into a SQL table.
 
 Turns out Microsoft already has one, they just dont talk about it much
 
-# ETL Performance
+<h2>ETL Performance</h2>
 * Using sys.fn_xe_file_target_read_file = 11 Hours
 * Using XEvent.Linq.dll and XECore.dll assemblies - 11 Minutes
 
