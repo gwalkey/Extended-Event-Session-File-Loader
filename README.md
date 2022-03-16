@@ -36,11 +36,14 @@ I typically run the XEL File Reader to load Failed Logins into a SQL Table front
 I typically run the Stream Reader against an XE session that tracks Deadlocks, but you can watch any XE Session
 
 Sample:
-powershell.exe c:\psscripts\XEvents_File_Reader.ps1 -Server 'localhost' -XELFilePath 'c:\traces\XE_Filed_Logins*.xel'
+<pre>
+powershell.exe c:\psscripts\XEvents_File_Reader.ps1 -Server 'localhost' -Database 'FailedLogins' - Table 'XE_Load' -XELFilePath 'c:\traces\XE_Faled_Logins*.xel'
+</pre>
 
 -Server is the destination SQL Server you will be pushing the XE events into<br>
 -Database is the Database<br>
 -Table is the table you will load the events into<br>
+-XelFilePath is the location of your XEL files (always use the trailing wildcard to load multiple files)
 
 # Code Customization required
 As every Extended Event Session you create is different, with varying data elements captured, you will be creating a SQL Table to hold those same elements.
