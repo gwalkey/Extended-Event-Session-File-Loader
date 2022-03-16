@@ -1,4 +1,4 @@
-# Extended-Event-Session-Loader
+# Extended-Event-Session-File-Loader
 This Powershell example takes an Extended Events .XEL file as input and loads the Session trace data into a SQL Table for further processing
 
 Background:
