@@ -2,7 +2,7 @@
 This Powershell example takes an Extended Events .XEL file as input and loads the Session trace data into a SQL Table for further processing
 
 # Background
-The SQL Server built-in XE File read function <b>sys.fn_xe_file_target_read_file</b> is INCREDIBLY SLOW.
+The SQL Server built-in function <b>sys.fn_xe_file_target_read_file</b> is INCREDIBLY SLOW.
 
 I needed a faster method to load large XEL trace files into a SQL table.
 
