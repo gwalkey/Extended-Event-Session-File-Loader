@@ -24,7 +24,7 @@ https://itsalljustelectrons.blogspot.com/2017/01/SQL-Server-Extended-Event-Handl
   
 # Requirements
 * Windows Powershell 5.1 or Powershell 7
-* .Net Framework 4.8 or .Net Core 3.X runtimes
+* .Net Framework 4.8 or .Net Core 6.X runtimes
 * Microsoft.SqlServer.XE.Core.dll
 * Microsoft.SqlServer.XEvent.Linq.dll
 
