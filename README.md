@@ -16,7 +16,9 @@ Turns out Microsoft already has one, they just dont talk about it much
 
 # Shout-Outs and Props
 https://blogs.msdn.microsoft.com/extended_events/2011/07/20/introducing-the-extended-events-reader/
+
 https://dba.stackexchange.com/questions/206863/what-is-the-right-tool-to-process-big-xel-files-sql-server-extended-events-log?rq=1
+
 https://itsalljustelectrons.blogspot.com/2017/01/SQL-Server-Extended-Event-Handling-Via-Powershell.html
 
   
